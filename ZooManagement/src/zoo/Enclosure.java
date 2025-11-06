@@ -15,7 +15,8 @@ public class Enclosure {
         animals.remove(animal);
     }
 
+    // Возвращаем копию списка для безопасности
     public List<Animal> getAnimals() {
-        return new ArrayList<>(animals); // защита от внешних модификаций
+        return new ArrayList<>(animals);
     }
 }

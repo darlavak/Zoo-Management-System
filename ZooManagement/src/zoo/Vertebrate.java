@@ -16,6 +16,7 @@ public abstract class Vertebrate implements Animal {
         this.weight = weight;
     }
 
+    @Override
     public String getName() { return name; }
     public int getAge() { return age; }
     public double getWeight() { return weight; }
